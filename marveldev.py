@@ -17,10 +17,8 @@ class Developer(object):
         self._public_key = config.get('Marvel Keys', 'public')
         self._private_key = config.get('Marvel Keys', 'private')
 
-
-
-if __name__=="__main__":
-    developer = Developer()
-    print(developer._private_key)
+    def get_credentials(self):
+        """ Returns a pair with marvel developer credentials """
+        return (self._public_key, self._private_key)
 
 
