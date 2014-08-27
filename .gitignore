@@ -52,3 +52,9 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# iPython notebook
+.ipynb_checkpoints
+
+#My own configuration file
+dev.conf
+
