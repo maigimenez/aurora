@@ -1,4 +1,4 @@
 aurora
 ======
 
-Marvel comics and feminism 
+Machine learning and pandas exploration through Marvel Comics (Marvel API).
